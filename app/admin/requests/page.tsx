@@ -1,7 +1,7 @@
-import React from 'react'
+import { Box } from "@mui/material";
 
 const RequestsPage = () => {
-  return <div>Requests Page</div>
-}
+  return <Box>Requests Page</Box>;
+};
 
-export default RequestsPage
+export default RequestsPage;

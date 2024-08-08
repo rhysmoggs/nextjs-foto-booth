@@ -1,11 +1,11 @@
-type PageType = {
-  title: string
-  route: string
-}
+import { ADMIN_PRODUCTS_ROUTE, ADMIN_REQUEST_ROUTE } from "./routes";
 
-export const ADMIN_REQUEST_ROUTE = '/admin/requests'
+type PageType = {
+  title: string;
+  route: string;
+};
 
 export const pages: PageType[] = [
-  { title: 'Requests', route: ADMIN_REQUEST_ROUTE },
-  { title: 'Products', route: '/admin/products' },
-]
+  { title: "Requests", route: ADMIN_REQUEST_ROUTE },
+  { title: "Products", route: ADMIN_PRODUCTS_ROUTE },
+];

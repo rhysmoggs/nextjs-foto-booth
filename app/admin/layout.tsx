@@ -1,13 +1,14 @@
-import React, { FC, PropsWithChildren } from 'react'
-import MenuBar from './components/MenuBar'
+import { FC, PropsWithChildren } from "react";
+import MenuBar from "./components/MenuBar";
+import { Box } from "@mui/material";
 
 const AdminLayout: FC<PropsWithChildren> = ({ children }) => {
   return (
-    <div>
+    <Box>
       <MenuBar />
       {children}
-    </div>
-  )
-}
+    </Box>
+  );
+};
 
-export default AdminLayout
+export default AdminLayout;
